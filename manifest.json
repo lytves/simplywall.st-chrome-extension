@@ -1,0 +1,32 @@
+{
+  "name": "Simply Wall Street",
+  "version": "1.0",
+  "description": "Simply Wall Street",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/wall-street.png",
+      "32": "images/wall-street.png",
+      "48": "images/wall-street.png",
+      "128": "images/wall-street.png"
+    }
+  },
+  "icons": {
+    "16": "images/wall-street.png",
+    "32": "images/wall-street.png",
+    "48": "images/wall-street.png",
+    "128": "images/wall-street.png"
+  },
+  "manifest_version": 2
+}
