@@ -3,6 +3,6 @@ window.addEventListener('scroll', function(e) {
     root.style.filter = 'none';
     root.style.filter = 'none';
 
-    const divModal = document.querySelectorAll("[data-cy-id='modal-ModalPortal-0-plans-modal']");
-    divModal.forEach(e => e.remove());
+    const divModals = document.querySelectorAll("[data-cy-id='modal-ModalPortal-0-plans-modal']");
+    divModals.forEach(e => e.style.visibility = "hidden");
 });
