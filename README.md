@@ -1,0 +1,1 @@
+# simplywall.st-chrome-extension
